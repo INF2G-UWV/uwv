@@ -6,6 +6,7 @@
 
 body, html
 {
+    padding-top: 25px;
     height: 100%;
     font-family: 'Roboto Condensed', Arial, sans-serif;
 }
@@ -25,11 +26,11 @@ Sections CSS
     -o-background-size: cover;
 }
 
-#container
+#containerQuestions
 {
-    width: 50%;
-    height: 50%;
+    width: 100%;
     background-color: #ffffff;
+    display: table;
 }
 
 .center-table
@@ -41,6 +42,11 @@ Sections CSS
 {
     display: table-cell;
     vertical-align: middle;
+}
+
+table
+{
+    text-align: left;
 }
 
 /* ==========================================================================

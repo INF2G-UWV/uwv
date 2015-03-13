@@ -68,17 +68,8 @@ $conn = new PDO('mysql:host=localhost;dbname=uwv', $user, '');
     </nav>
 
     <section id="home">
-        <div id="containerQuestions">
-            <table class="table table-striped">
-                <tr>
-                    <th style="text-align: center;">Question Number</th>
-                    <th>Question</th>
-                </tr>
-                <?php listItems(); ?>
-                <tr>
-                    <td>1</td>
-                </tr>
-            </table>
+        <div id="containerChangeOrder">
+
         </div>
     </section>
 
