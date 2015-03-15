@@ -94,7 +94,7 @@ $conn = new PDO('mysql:host=localhost;dbname=uwv', $user, '');
                     </div>
                     <div class="form-group">
                         <div class="col-sm-offset-2 col-sm-10">
-                            <button type="submit" class="btn btn-default">Sign in</button>
+                            <button type="submit" class="btn btn-default">Sign In</button>
                         </div>
                     </div>
                 </form>

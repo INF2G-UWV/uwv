@@ -15,10 +15,10 @@ body, html
 /* ==========================================================================
 Sections CSS
 ========================================================================== */
-#signIn #home
+#home
 {
     height: 100%;
-    width: 50%;
+    width: 100%;
     background: #f9f9f9 no-repeat center center fixed;
     display: table;
     background-size: cover;
@@ -36,7 +36,7 @@ Sections CSS
 
 #containerSignIn
 {
-    width: 100%;
+    width: 20%;
     background-color: #f9f9f9;
     display: table;
 }
