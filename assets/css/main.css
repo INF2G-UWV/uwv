@@ -9,15 +9,16 @@ body, html
     padding-top: 25px;
     height: 100%;
     font-family: 'Roboto Condensed', Arial, sans-serif;
+    background-color: #f9f9f9;
 }
 
 /* ==========================================================================
 Sections CSS
 ========================================================================== */
-#home
+#signIn #home
 {
     height: 100%;
-    width: 100%;
+    width: 50%;
     background: #f9f9f9 no-repeat center center fixed;
     display: table;
     background-size: cover;
@@ -30,6 +31,13 @@ Sections CSS
 {
     width: 100%;
     background-color: #ffffff;
+    display: table;
+}
+
+#containerSignIn
+{
+    width: 100%;
+    background-color: #f9f9f9;
     display: table;
 }
 

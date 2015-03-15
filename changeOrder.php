@@ -29,7 +29,7 @@ $conn = new PDO('mysql:host=localhost;dbname=uwv', $user, '');
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 </head>
-<body>
+<body id="changeOrder">
     <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
@@ -44,11 +44,11 @@ $conn = new PDO('mysql:host=localhost;dbname=uwv', $user, '');
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
-                    <li><a href="#">Sign In</a></li>
-                    <li><a href="#">Sign Up</a></li>
+                    <li><a href="index.php">Sign In</a></li>
+                    <li><a href="signUp.php">Sign Up</a></li>
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
-                    <li class="active"><a href="index.php">Questions in order</a></li>
+                    <li><a href="questions.php">Questions in order</a></li>
                     <li><a href="changeOrder.php">Change order</a></li>
                     <li><a href="#">Add Question</a></li>
                     <li><a href="#">Change Question</a></li>
@@ -76,5 +76,6 @@ $conn = new PDO('mysql:host=localhost;dbname=uwv', $user, '');
     <!-- JS FILES -->
     <script src="assets/js/jquery-2.1.3.min.js"></script>
     <script src="assets/js/bootstrap.js"></script>
+    <script src="assets/js/main.js"></script>
 </body>
 </html>
